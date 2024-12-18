@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGhvdGVsfGVufDB8fHx8MTYzMjY5MjY5Nw&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Tambahkan ini untuk menghindari perubahan layout saat dialog muncul */
+body.modal-open {
+    overflow: hidden;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
